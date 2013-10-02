@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Global Oil Production & Consumption since 1965
+
+index.html
+
+
+@author			Timo Grossenbacher
+@copyright		CC BY-NC-SA 2.0 2013
+@license		MIT License (http://www.opensource.org/licenses/mit-license.php)
+
+-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="oil consumption infographic ddj data-driven-journalism journalism datavisualization crude oil global oil production and consumption" />
+        
+        <title>Global Oil Production & Consumption since 1965</title>
+
+        <script src="lib/d3.v3.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/queue.v1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/topojson.v1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/mootools-core-1.4.5.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/mootools-more-1.4.0.1.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <!-- main script -->
+        <script src="src/main.js" type="text/javascript" charset="utf-8"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+
+    </head>
+    <body>
+        <div id="loading">
+            Loading...
+        </div>
+        
+        <div id="container">
+
+            <header>
+                <h1>Global Oil Production & Consumption since 1965</h1>
+            </header>
+            <div id="impressum">
+                <!--<small>
+                    <p>Tested in latest versions of Firefox, Chrome, Safari, and Internet Explorer. A minimal screen resolution of 1600 x 900px is recommended.</p>
+                    <p>Note that the original data set does not consider all the countries of the world. For some countries, values are missing for a certain time period (e.g. for Russia/former UDSSR). </p>
+                    <p>"Production" includes crude oil, shale oil, oil sands and NLGs, "consumption" also includes fuel ethanol and biodiesel, refinery fuel and loss.</p>
+                    <strong>Author</strong>:
+                    <br/>
+                    Timo Grossenbacher (BSc in Geography, University of Zurich)
+                    <br/>
+                    <strong>Sources</strong>:
+                    <br/>
+                    Geodata: <a href="https://github.com/mbostock/topojson/blob/master/examples/world-110m.json">mbostock/topojson</a>
+                    <br/>
+                    Data: <a href="http://www.bp.com/en/global/corporate/about-bp/statistical-review-of-world-energy-2013.html">BP Statistical Review of World Energy 2013</a>
+               </small>-->  
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            window.addEvent('domready', function() {
+                init();
+            });
+        </script>
+
+       
+    </body>
+</html>

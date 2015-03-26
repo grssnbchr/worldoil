@@ -6,4 +6,4 @@ MIT License (http://www.opensource.org/licenses/mit-license.php)
 
 Global Oil Production and Consumption Data Visualization using D3.js
 
-Online: labs.wnstnsmth.net/worldoil
+Online: labs.timogrossenbacher.ch/worldoil
